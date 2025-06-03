@@ -108,8 +108,12 @@ WSGI_APPLICATION = 'nuevo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'nueva_2lzx',
+        'USER': 'nueva_2lzx_user',
+        'PASSWORD': 'XY0xHsgnWvZHFGjmROi5Wzfs9fnmtAMy',
+        'HOST': 'dpg-d0v8jme3jp1c73dt5o50-a.oregon-postgres.render.com',
+        'PORT': '5432',
     }
 }
 
