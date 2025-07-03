@@ -109,10 +109,10 @@ WSGI_APPLICATION = 'nuevo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'nueva_2lzx',
-        'USER': 'nueva_2lzx_user',
-        'PASSWORD': 'XY0xHsgnWvZHFGjmROi5Wzfs9fnmtAMy',
-        'HOST': 'dpg-d0v8jme3jp1c73dt5o50-a.oregon-postgres.render.com',
+        'NAME': 'nuevaa',
+        'USER': 'nuevaa_user',
+        'PASSWORD': 'AobPWROxFUjzsA6z2TRx5v3BSCzL3ybU',
+        'HOST': 'dpg-d1j744er433s73fukung-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
